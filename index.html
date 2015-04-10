@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MyTodos</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">MyTodos</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Umriya Afini</a></li>
+                    <li><a href="#"><img class="img-circle" src="assets/images/user2.png" width="30px"></a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-cog" aria-hidden="true"></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Profil</a></li>
+                        <li><a href="#">Setting</a></li>
+                        <li><a href="#">Archive Todo</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Logout</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+        
+        <section>
+            <div class="container">
+                <div class="row text-center" style ="margin-top:2rem;">
+                    <!-- <h1 class="t-white">MyTodos</h1> -->
+                    <img src="assets/images/logo1.png" width="400px">
+                </div>
+            </div>
+            <div class="container todolist">
+                <div class="row">
+                    <div class="col-md-3 col-lg-4 col-sm-12">
+                        <div class="blok tanggal"><h2>Hari ini</h2></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>kirim tugas AI</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>kirim tugas jarkom</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p class="cek">Tugas Sistem Basis Data</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Lorem ipsum dolor sit amet, consectetur adipisicing</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p class="cek">Lorem ipsum dolor sit amet, consectetur adipisicing</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Lorem ipsum dolor sit amet, consectetur adipisicing</p></div>
+                    </div>
+                    <div class="col-md-3 col-lg-4 col-sm-12">
+                        <div class="blok tanggal shadow"><h2>Besok</h2></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Nyuci Selimut</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Beli Baju Baru</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Lorem ipsum dolor sit amet, consectetur adipisicing</p></div>
+                    </div>
+                    <div class="col-md-3 col-lg-4 col-sm-12">
+                        <div class="blok tanggal shadow"><h2>Lusa</h2></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Bikin Email Baru</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Ke Indomaret</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Belajar Laravel</p></div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-md-3 col-lg-4 col-sm-12">
+                        <div class="blok tanggal shadow"><h2>8 April</h2></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Kirim Email Pak Bos</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p class="cek">Cari Paper Image Processing</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Bikin Tugas Sistem Terdistribusi</p></div>
+                    </div>
+                    <div class="col-md-3 col-lg-4 col-sm-12">
+                        <div class="blok tanggal shadow"><h2>12 April</h2></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Kirim Email Pak Bos</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Bikin Tugas Sistem Terdistribusi</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Bikin Tugas Kriptografi</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Mobile Apps Seminar</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p>Bikin Tugas IMK</p></div>
+                    </div>
+                    <div class="col-md-3 col-lg-4 col-sm-12">
+                        <div class="blok tanggal shadow"><h2>91 April</h2></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p> Belajar SASS lagi</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p> Nyuci Motor</p></div>
+                        <div class="blok todo shadow"><input type="checkbox"><p> Bikin Tugas Sistem Terdistribusi</p></div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <div class="tambah shadow"  type="button"  data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">New Todos</h4>
+              </div>
+              <div class="modal-body">
+                <input type="text" class="form-control" placeholder="Tanggal">
+                <br>
+                <textarea class="form-control" rows="5" placeholder="Tulis Todos . . ."></textarea>
+              </div>
+                <button type="button" class="new-todo btn btn-lg btn-block"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Tambah</button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
